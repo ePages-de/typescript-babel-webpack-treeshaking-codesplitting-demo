@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 chrome versions",
+            "last 2 firefox versions",
+            "last 2 edge versions",
+            "last 2 ios versions",
+            "last 2 safari versions",
+            "last 2 chromeAndroid versions"
+          ],
+          "node": "current"
+        },
+        "debug": false
+      }
+    ]
+  ],
+  "plugins": [
+    "babel-plugin-syntax-dynamic-import",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}
